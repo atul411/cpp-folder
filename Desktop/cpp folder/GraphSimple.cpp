@@ -27,12 +27,12 @@ class Graph
 };
 int main() 
 { 
-    Graph<string> g;
-    g.addEdge("Amritsar","Delhi");
-    g.addEdge("Amritsar","Jaipur");
-    g.addEdge("Delhi","Siachin");
-    g.addEdge("Delhi","Bangalore");
-    g.addEdge("Delhi","Agra");
-    g.addEdge("Amritsar","Siachin");
-    g.print();
+    Graph<string> gi;
+    gi.addEdge("Amritsar","Delhi");
+    gi.addEdge("Amritsar","Jaipur");
+    gi.addEdge("Delhi","Siachin");
+    gi.addEdge("Delhi","Bangalore");
+    gi.addEdge("Delhi","Agra");
+    gi.addEdge("Amritsar","Siachin");
+    gi.print();
 } 
